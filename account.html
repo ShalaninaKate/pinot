@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Account</title>
+  <!-- <link rel="preload" href="fonts/PoppinsLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/PoppinsSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Vaground.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <main class="page account board board--circle-1">
+      <div class="account__body">
+        <div class="account__header board__header">
+          <div class="board__title">
+            <h2 class="board__title-text">My Account </h2>
+          </div>
+        </div>
+        <div class="account__logo">
+          <img class="account__logo-icon" src="./img/logo.svg" alt="logo">
+        </div>
+        <div class="account__wallet">
+          <img class="account__wallet-icon" src="./img/svg/wallet.svg" alt="">
+          <div class="account__wallet-text">0xbc1dx4cv456×7to9jtp186ns</div>
+        </div>
+        <div class="account__details account-details board board--transparent">
+          <div class="account-details__stats">
+            <div class="account-details__stats-row block-info">
+              <label class="account-details__label block-info__label">Balance</label>
+              <div class="account-details__amount block-info__amount">100 000 440
+                <img class="account-details__icon block-info__icon" src="./img/svg/not-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="account-details__stats-row block-info">
+              <label class="account-details__label block-info__label">Referrals profit:</label>
+              <div class="account-details__amount block-info__amount">115 987
+                <img class="account-details__icon block-info__icon" src="./img/svg/not-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="account-details__stats-row block-info">
+              <label class="account-details__label block-info__label">Profit per hour:</label>
+              <div class="account-details__amount block-info__amount">12 000
+                <img class="account-details__icon block-info__icon" src="./img/svg/not-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="account-details__stats-row block-info">
+              <label class="account-details__label block-info__label">Number of referrals:</label>
+              <div class="account-details__amount block-info__amount">16</div>
+            </div>
+            <div class="account-details__stats-row block-info">
+              <label class="account-details__label block-info__label">Pyramids</label>
+              <div class="account-details__amount block-info__amount">18</div>
+            </div>
+
+          </div>
+          <img class="account-details__image account-details__image--1" src="./img/pyramid.svg" alt="">
+          <img class="account-details__image account-details__image--2" src="./img/pyramid-2.svg" alt="">
+        </div>
+        <div class="account__settings settings-account">
+          <h2 class="settings-account__header">Settings</h2>
+          <div class="settings-account__items">
+            <div class="settings-account__item">
+              <button id="switchAnim" class="settings-account__item-btn switch-btn"></button>
+              <label for="switchAnim" class="settings-account__item-text">Pyramids animation</label>
+            </div>
+            <div class="settings-account__item">
+              <button id="switchVibration" class="settings-account__item-btn switch-btn"></button>
+              <label for="switchVibration" class="settings-account__item-text">Vibration</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>
